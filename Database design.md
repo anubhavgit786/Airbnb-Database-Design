@@ -1,3 +1,15 @@
+### 1. **User**
+
+* Fields: `id`, `name`, `email`, `password`
+* Roles stored as a set (`GUEST`, `HOTEL_MANAGER`)
+* Relationships:
+
+  * 1 User → *many* Bookings
+  * 1 User → *many* Guests (family/friends ke liye)
+
+---
+
+
 ### 2. **Hotel**
 
 * Fields: `id`, `name`, `city`, `active`, `photos[]`, `amenities[]`
