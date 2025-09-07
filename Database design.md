@@ -1,3 +1,8 @@
+## Entities and Relationships
+
+---
+
+
 ### 1. **User**
 
 * Fields: `id`, `name`, `email`, `password`
