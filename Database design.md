@@ -1,18 +1,3 @@
----
-
-## 🏗 Entities aur Relationships
-
-### 1. **User**
-
-* Fields: `id`, `email`, `password`, `name`
-* Roles stored as a set (`GUEST`, `HOTEL_MANAGER`)
-* Relationships:
-
-  * 1 User → *many* Bookings
-  * 1 User → *many* Guests (family/friends ke liye)
-
----
-
 ### 2. **Hotel**
 
 * Fields: `id`, `name`, `city`, `active`, `photos[]`, `amenities[]`
